@@ -1453,7 +1453,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto
 }
 
@@ -4479,7 +4479,6 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4566,7 +4565,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -5325,7 +5323,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
 
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
@@ -7923,10 +7921,9 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
@@ -8041,7 +8038,9 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    width: 35%;
+    height: auto
 }
 
 .pull-right {
